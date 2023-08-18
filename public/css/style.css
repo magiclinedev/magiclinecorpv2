@@ -1,0 +1,33 @@
+/* Styles for the action buttons */
+.action-buttons {
+    display: none;
+}
+
+/* Show the action buttons when hovering over the item reference cell */
+.itemref-cell:hover .action-buttons {
+    display: block;
+}
+
+
+/* Add transition effect for smooth zooming */
+.zoomable-image {
+    transition: transform 0.3s ease;
+}
+
+/* Scale up the image on hover */
+.zoomable-image:hover {
+    transform: scale(1.1);
+}
+
+
+/* magnifier */
+
+.badge {
+    display: inline-block;
+    background-color: red; /* Change the color as desired */
+    color: white;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 20%;
+    margin-left: 5px;
+}
